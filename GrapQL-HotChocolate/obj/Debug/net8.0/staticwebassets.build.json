@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VaEkVkCrnhxCHZ1T9qzqlPaPX6W0Ge4BBljefhGg8aI=",
+  "Source": "GrapQL-HotChocolate",
+  "BasePath": "_content/GrapQL-HotChocolate",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
