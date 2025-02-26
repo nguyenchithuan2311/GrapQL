@@ -3,6 +3,7 @@
 
 using GrapQL_HotChocolate.Entity;
 using GrapQL_HotChocolate.Types;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,13 +21,17 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-var playList = new Playlist();
-builder.Services.AddSingleton(playList);
+
+builder.Services.AddSingleton<Playlist>();
+builder.Services.AddSingleton<IMediator, Mediator>();
+
+
 builder.Services.AddGraphQLServer()
     .AddQueryType<QueryType>()
     .AddType<PlaylistData>()
     .AddType<Playlist>()
     .AddMutationType<Mutations>();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 
 var app = builder.Build();
 

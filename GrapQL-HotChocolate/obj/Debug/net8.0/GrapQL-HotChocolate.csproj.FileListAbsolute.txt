@@ -72,3 +72,7 @@ C:\Users\bennet.nguyen\source\repos\GrapQL-HotChocolate\GrapQL-HotChocolate\obj\
 C:\Users\bennet.nguyen\source\repos\GrapQL-HotChocolate\GrapQL-HotChocolate\obj\Debug\net8.0\GrapQL-HotChocolate.pdb
 C:\Users\bennet.nguyen\source\repos\GrapQL-HotChocolate\GrapQL-HotChocolate\obj\Debug\net8.0\GrapQL-HotChocolate.genruntimeconfig.cache
 C:\Users\bennet.nguyen\source\repos\GrapQL-HotChocolate\GrapQL-HotChocolate\obj\Debug\net8.0\ref\GrapQL-HotChocolate.dll
+C:\Users\bennet.nguyen\source\repos\GrapQL-HotChocolate\GrapQL-HotChocolate\bin\Debug\net8.0\MediatR.dll
+C:\Users\bennet.nguyen\source\repos\GrapQL-HotChocolate\GrapQL-HotChocolate\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\bennet.nguyen\source\repos\GrapQL-HotChocolate\GrapQL-HotChocolate\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\bennet.nguyen\source\repos\GrapQL-HotChocolate\GrapQL-HotChocolate\obj\Debug\net8.0\GrapQL-HotChocolate.sourcelink.json

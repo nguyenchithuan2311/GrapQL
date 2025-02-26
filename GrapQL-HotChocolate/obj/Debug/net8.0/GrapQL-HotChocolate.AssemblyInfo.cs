@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrapQL-HotChocolate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0c03f8d59da4427604e414d5355367f45491724")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrapQL-HotChocolate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrapQL-HotChocolate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
